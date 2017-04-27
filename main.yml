@@ -8,6 +8,7 @@
       - ansible
       - git
       - dockutil
+      - openconnect
 
     homebrew_cask_appdir: /Applications
     homebrew_cask_apps:
@@ -15,6 +16,7 @@
       - emacs
       - spotify
       - slack
+      - lastpass
 
     dockitems_to_remove:
       - Siri
