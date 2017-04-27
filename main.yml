@@ -34,6 +34,9 @@
       - name: Firefox
         path: "/Applications/Firefox.app"
         pos: 1
+      - name: Spotify
+        path: "/Applications/Spotify.app"
+        pos: 2
 
   roles:
     - geerlingguy.homebrew
