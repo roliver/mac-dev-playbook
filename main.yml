@@ -12,7 +12,9 @@
     homebrew_cask_appdir: /Applications
     homebrew_cask_apps:
       - firefox
+      - emacs
       - spotify
+      - slack
 
     dockitems_to_remove:
       - Siri
@@ -34,9 +36,18 @@
       - name: Firefox
         path: "/Applications/Firefox.app"
         pos: 1
+      - name: Emacs
+        path: "/Applications/Emacs.app"
+        pos: 2
+      - name: Terminal
+        path: "/Applications/Utilities/Terminal.app"
+        pos: 3
       - name: Spotify
         path: "/Applications/Spotify.app"
-        pos: 2
+        pos: 4
+      - name: Slack
+        path: "/Applications/Slack.app"
+        pos: 5
 
   roles:
     - geerlingguy.homebrew
