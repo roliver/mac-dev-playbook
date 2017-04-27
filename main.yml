@@ -2,6 +2,15 @@
 - hosts: localhost
   connection: local
 
+  roles:
+    - geerlingguy.homebrew
+    - dock
+    - roliver.filevault
+
+  tasks:
+    - name: Ensure FileVault is enabled
+      filevault: enabled=True
+
   vars:
     homebrew_install_path: /usr/local/homebrew
     homebrew_installed_packages:
@@ -56,6 +65,3 @@
         path: "/Applications/Slack.app"
         pos: 5
 
-  roles:
-    - geerlingguy.homebrew
-    - dock
