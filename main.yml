@@ -1,0 +1,40 @@
+---
+- hosts: localhost
+  connection: local
+
+  vars:
+    homebrew_install_path: /usr/local/homebrew
+    homebrew_installed_packages:
+      - ansible
+      - git
+      - dockutil
+
+    homebrew_cask_appdir: /Applications
+    homebrew_cask_apps:
+      - firefox
+      - spotify
+
+    dockitems_to_remove:
+      - Siri
+      - Launchpad
+      - Safari
+      - Mail
+      - Contacts
+      - Maps
+      - Photos
+      - Messages
+      - FaceTime
+      - Pages
+      - Numbers
+      - Keynote
+      - iTunes
+      - iBooks
+
+    dockitems_to_persist:
+      - name: Firefox
+        path: "/Applications/Firefox.app"
+        pos: 1
+
+  roles:
+    - geerlingguy.homebrew
+    - dock
