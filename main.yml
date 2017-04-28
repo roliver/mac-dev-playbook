@@ -33,6 +33,8 @@
       - slack
       - lastpass
       - p4v
+      - virtualbox
+      - vagrant
 
     dockitems_to_remove:
       - Siri
@@ -69,4 +71,7 @@
       - name: p4v
         path: "/Applications/p4v.app"
         pos: 6
+      - name: Virtualbox
+        path: "/Applications/Virtualbox.app"
+        pos: 7
 
