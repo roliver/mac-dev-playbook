@@ -19,6 +19,7 @@
       - dockutil
       - openconnect
       - cask
+      - docker
 
     homebrew_taps:
       - caskroom/cask
@@ -31,6 +32,7 @@
       - spotify
       - slack
       - lastpass
+      - p4v
 
     dockitems_to_remove:
       - Siri
@@ -64,4 +66,7 @@
       - name: Slack
         path: "/Applications/Slack.app"
         pos: 5
+      - name: p4v
+        path: "/Applications/p4v.app"
+        pos: 6
 
