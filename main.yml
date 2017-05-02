@@ -36,6 +36,8 @@
       - virtualbox
       - vagrant
       - perforce
+      # TODO: Make sure flux starts at login
+      - flux
 
     dockitems_to_remove:
       - Siri
