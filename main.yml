@@ -20,6 +20,7 @@
       - openconnect
       - cask
       - docker
+      - mosh
 
     homebrew_taps:
       - caskroom/cask
@@ -38,6 +39,8 @@
       - perforce
       # TODO: Make sure flux starts at login
       - flux
+      - docker
+      - vagrant-manager
 
     dockitems_to_remove:
       - Siri
