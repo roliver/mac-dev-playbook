@@ -41,6 +41,7 @@
       - flux
       - docker
       - vagrant-manager
+      - whatsapp
 
     dockitems_to_remove:
       - Siri
@@ -74,10 +75,13 @@
       - name: Slack
         path: "/Applications/Slack.app"
         pos: 5
+      - name: Whatsapp
+        path: "/Applications/Whatsapp.app"
+        pos: 6
       - name: p4v
         path: "/Applications/p4v.app"
-        pos: 6
+        pos: 7
       - name: Virtualbox
         path: "/Applications/Virtualbox.app"
-        pos: 7
+        pos: 8
 
