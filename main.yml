@@ -4,7 +4,7 @@
 
   roles:
     - geerlingguy.homebrew
-    - dock
+    - fubarhouse.macdock
     - roliver.filevault
 
   tasks:
@@ -16,7 +16,6 @@
     homebrew_installed_packages:
       - ansible
       - git
-      - dockutil
       - openconnect
       - cask
       - docker
@@ -43,7 +42,7 @@
       - vagrant-manager
       - whatsapp
 
-    dockitems_to_remove:
+    dockitems_disabled:
       - Siri
       - Launchpad
       - Safari
@@ -59,7 +58,7 @@
       - iTunes
       - iBooks
 
-    dockitems_to_persist:
+    dockitems_enabled:
       - name: Firefox
         path: "/Applications/Firefox.app"
         pos: 1
