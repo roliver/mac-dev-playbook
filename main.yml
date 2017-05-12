@@ -20,6 +20,7 @@
       - cask
       - docker
       - mosh
+      - picocom
 
     homebrew_taps:
       - caskroom/cask
@@ -43,6 +44,8 @@
       - whatsapp
       - gpgtools
       - xquartz
+      - coolterm
+      - tftpserver
 
     dockitems_disabled:
       - Siri
