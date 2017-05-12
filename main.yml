@@ -41,6 +41,7 @@
       - docker
       - vagrant-manager
       - whatsapp
+      - gpgtools
 
     dockitems_disabled:
       - Siri
