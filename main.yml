@@ -42,6 +42,7 @@
       - vagrant-manager
       - whatsapp
       - gpgtools
+      - xquartz
 
     dockitems_disabled:
       - Siri
