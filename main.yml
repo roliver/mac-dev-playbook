@@ -46,6 +46,7 @@
       - xquartz
       - coolterm
       - tftpserver
+      - libreoffice
 
     dockitems_disabled:
       - Siri
