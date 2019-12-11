@@ -5,11 +5,6 @@
   roles:
     - geerlingguy.homebrew
     - fubarhouse.macdock
-    - roliver.filevault
-
-  tasks:
-    - name: Ensure FileVault is enabled
-      filevault: enabled=True
 
   vars:
     homebrew_install_path: /usr/local/homebrew

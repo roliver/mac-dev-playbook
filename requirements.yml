@@ -1,6 +1,4 @@
 - src: geerlingguy.homebrew
   path: vendor/roles
-- src: roliver.filevault
-  path: vendor/roles
 - src: fubarhouse.macdock
   path: vendor/roles
