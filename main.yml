@@ -33,7 +33,6 @@
       - docker
       - vagrant-manager
       - whatsapp
-      - gpgtools
       - xquartz
       - coolterm
       - tftpserver
